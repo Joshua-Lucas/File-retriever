@@ -1,0 +1,11 @@
+{
+  "name": "HTML Api",
+  "version": "1.0.0",
+  "description": "an api that retrieves html files from SharePoint to display in an lms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Lucas",
+  "license": "ISC"
+}
