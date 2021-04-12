@@ -1,11 +1,28 @@
 {
-  "name": "HTML Api",
+  "name": "htmlapi",
   "version": "1.0.0",
   "description": "an api that retrieves html files from SharePoint to display in an lms",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Joshua Lucas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-jest": "^24.3.5",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^26.6.3",
+    "prettier": "2.2.1",
+    "typescript": "^4.2.4"
+  }
 }
