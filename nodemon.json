@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": [".git", "node_modules/**/node_modules", "dist"],
+  "exec": "tsc && node dist/www.js"
+}
