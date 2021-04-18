@@ -10,7 +10,6 @@
   "author": "Joshua Lucas",
   "license": "ISC",
   "devDependencies": {
-
     "@types/express": "^4.17.11",
     "@types/jest": "^26.0.22",
     "@types/node": "^14.14.37",
@@ -28,6 +27,7 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4"
   }
 }
