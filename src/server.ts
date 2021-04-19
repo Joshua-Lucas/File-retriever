@@ -1,10 +1,13 @@
 import express from "express";
+import fileRetrieverRouter from "./router/fileRetrieverRouter";
 
-export const app = express();
+const app = express();
 
-app.get("/", function (req, res) {
-  return res.send({ message: "Hello World" });
-});
+// app.get("/", function (req, res) {
+//   return res.send({ message: "Hello " });
+// });
+
+app.use("/file", fileRetrieverRouter);
 
 export function startServer() {
   app.listen("3000", function serverResponse() {
