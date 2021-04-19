@@ -3,9 +3,7 @@ import fileRetrieverRouter from "./router/fileRetrieverRouter";
 
 const app = express();
 
-// app.get("/", function (req, res) {
-//   return res.send({ message: "Hello " });
-// });
+app.disable("x-powered-by");
 
 app.use("/file", fileRetrieverRouter);
 
