@@ -1,10 +1,12 @@
 require("dotenv").config();
 import express from "express";
+import cors from "cors";
 import fileRetrieverRouter from "./router/fileRetrieverRouter";
 
 const app = express();
 
 app.disable("x-powered-by");
+app.use(cors());
 
 app.use("/file", fileRetrieverRouter);
 
